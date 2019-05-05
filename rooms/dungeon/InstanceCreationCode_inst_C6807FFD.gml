@@ -1,0 +1,1 @@
+playerinteract = true;

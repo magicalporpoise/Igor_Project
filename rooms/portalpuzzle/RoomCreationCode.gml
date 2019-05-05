@@ -1,0 +1,1 @@
+//if(instance_exists(obj_player)) inst_1400C9CA.action++;

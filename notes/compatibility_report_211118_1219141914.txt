@@ -1,0 +1,301 @@
+Converting GML script: ${project_dir}\scripts\script_itemfollow\script_itemfollow.gml
+Converted description /// @description  make the item follow the player's hand
+
+Converting GML script: ${project_dir}\scripts\instance_nth_nearest\instance_nth_nearest.gml
+Converted description /// @description  instance_nth_nearest(x,y,obj,n)/// @param x
+/// @param y
+/// @param obj
+/// @param n
+
+Converting GML script: ${project_dir}\scripts\script_moveandcollide\script_moveandcollide.gml
+Converted description /// @description Movement and collision
+
+Converting GML script: ${project_dir}\scripts\script_normalmovement\script_normalmovement.gml
+Converted description /// @description Using player input, allow them to move around
+
+Converting GML script: ${project_dir}\scripts\script_inventorymanage\script_inventorymanage.gml
+Converted description /// @description manage inventory
+
+Converting GML script: ${project_dir}\scripts\script_getInput\script_getInput.gml
+Converted description /// @description receiving input from keys
+Converted string - line 7: 'E' -> "E"
+
+Converting GML script: ${project_dir}\scripts\script_reading\script_reading.gml
+Converted description /// @description when a text box comes up, switch the player state to this.
+
+Converting GML script: ${project_dir}\scripts\script_moveinventoryintoroom\script_moveinventoryintoroom.gml
+Converted description /// @description take the player's existing inventory and move it into a new room
+
+Converting GML script: ${project_dir}\scripts\collision_in_rectangle_list\collision_in_rectangle_list.gml
+Converted description /// @description  collision_rectangle_list(trigger,obj,prec,notme)/// @param trigger
+/// @param obj
+/// @param prec
+/// @param notme
+
+Converting GML script: ${project_dir}\scripts\script_makenewpotion\script_makenewpotion.gml
+Converted description /// @description  Take the potions, make a new one if the recipe is right
+
+Converting GML script: ${project_dir}\scripts\script_text\script_text.gml
+Converted builtin - line 5: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 5: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 9: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description make text appear
+
+Converting GML script: ${project_dir}\scripts\npc_speak\npc_speak.gml
+Converted description /// @description  This is what npc's do:
+
+Converting GML script: ${project_dir}\scripts\dialogue_horseman\dialogue_horseman.gml
+Converted description /// @description  List data structure
+
+Converting GML script: ${project_dir}\scripts\dialogue_skeleton\dialogue_skeleton.gml
+Converted description /// @description  List data structure
+
+Converting GML script: ${project_dir}\scripts\scr_mixed_npc_dia\scr_mixed_npc_dia.gml
+Converted description /// @description  List data structure
+
+!!! Font final_font font family Gabriola is installed but couldn't match style - Font has NOT been regenerated
+!!! Font skeleton_font uses a font (OCR A Std) not installed on this system - Font has NOT been regenerated
+!!! Font fnt font family Gabriola is installed but couldn't match style - Font has NOT been regenerated
+!!! Font horse_font uses a font (Trajan Pro 3) not installed on this system - Font has NOT been regenerated
+Font fnt_credits has been converted to font family Consolas (Bold) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\obj_tile\Create_0.gml
+Converted description /// @description  This tiles will change their image_indeex based on what they are adjecent to
+
+Converting GML script: ${project_dir}\objects\obj_player\Create_0.gml
+Converted description /// @description Creating the player variables
+
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted description /// @description Switching between states
+
+Converting GML script: ${project_dir}\objects\obj_player\Draw_0.gml
+Converted description /// @description  Handle all character sprites
+
+Converting GML script: ${project_dir}\objects\obj_headlesshorseman_npc\Create_0.gml
+Converted description /// @description New npc, headless horseman
+
+Converting GML script: ${project_dir}\objects\obj_headlesshorseman_npc\Step_0.gml
+Converted description /// @description  If the player interacts with this npc
+
+Converting GML script: ${project_dir}\objects\obj_mixed_npc\Create_0.gml
+Converted description /// @description New npc, headless horseman
+
+Converting GML script: ${project_dir}\objects\obj_npc\Create_0.gml
+Converted description /// @description  Npc's have a lot of dialogue
+
+Converting GML script: ${project_dir}\objects\obj_npc\Destroy_0.gml
+Converted description /// @description  Destroy the data structure containing dialogue
+
+Converting GML script: ${project_dir}\objects\obj_skeleton_npc\Create_0.gml
+Converted description /// @description  Making the skeleton npc
+
+Converting GML script: ${project_dir}\objects\obj_skeleton_npc\Step_0.gml
+Converted builtin - line 21: view_vspeed[view_current] = 4 -> __view_set( e__VW.VSpeed, view_current, 4 )
+Converted builtin - line 24: view_vspeed[view_current] = -1 -> __view_set( e__VW.VSpeed, view_current, -1 )
+Converted builtin - line 20: view_object[view_current] = obj_skelekey -> __view_set( e__VW.Object, view_current, obj_skelekey )
+Converted builtin - line 23: view_object[view_current] = obj_player -> __view_set( e__VW.Object, view_current, obj_player )
+Converted description /// @description  If the player interacts with this npc
+
+Converting GML script: ${project_dir}\objects\obj_skeleton_npc\Draw_0.gml
+Converted description /// @description  Draw the prison cell and skeleton and bars
+
+Converting GML script: ${project_dir}\objects\obj_lightning_scene\Create_0.gml
+Converted description /// @description  Play this scene when the power is turned on
+
+Converting GML script: ${project_dir}\objects\obj_lightning_scene\Alarm_1.gml
+Converted description /// @description  Go back allow the player to move
+
+Converting GML script: ${project_dir}\objects\obj_lightning_scene\Alarm_0.gml
+Converted builtin - line 3: background_visible[1] = false -> __background_set( e__BG.Visible, 1, false )
+Converted description /// @description  Lightning strikes!
+
+Converting GML script: ${project_dir}\objects\obj_lightning_scene\Step_0.gml
+Converted description /// @description  if the power is on, start the scene
+
+Converting GML script: ${project_dir}\objects\obj_lightning_scene\Draw_0.gml
+Converted builtin - line 3: background_visible[1] = false -> __background_set( e__BG.Visible, 1, false )
+Converted description /// @description  Make a flash and then lightning
+
+Converting GML script: ${project_dir}\objects\obj_teleporter\Create_0.gml
+Converted description /// @description  move the player from one room to another
+
+Converting GML script: ${project_dir}\objects\obj_teleporter\Step_0.gml
+Converted description /// @description  move the player
+
+Converting GML script: ${project_dir}\objects\obj_text\Create_0.gml
+Converted description /// @description the initial properties of text box
+
+Converting GML script: ${project_dir}\objects\obj_text\Draw_0.gml
+Converted builtin - line 14: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 15: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted description /// @description Add letters over time
+
+Converting GML script: ${project_dir}\objects\obj_speaker\Create_0.gml
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description This object produces text based on triggers
+
+Converting GML script: ${project_dir}\objects\obj_speaker\Step_0.gml
+Converted description /// @description  make the speaker speak
+
+Converting GML script: ${project_dir}\objects\obj_inventory\Create_0.gml
+Converted description /// @description The backpack used by Igor
+
+Converting GML script: ${project_dir}\objects\obj_inventory\Draw_0.gml
+Converted description /// @description drawing the backpack to screen
+
+Converting GML script: ${project_dir}\objects\obj_cutscene\Create_0.gml
+Converted description /// @description  The cutscene object prevents player input and pans the camera
+
+Converting GML script: ${project_dir}\objects\obj_cutscene\Destroy_0.gml
+Converted builtin - line 5: view_visible[1] = false -> __view_set( e__VW.Visible, 1, false )
+Converted builtin - line 6: view_visible[0] = true -> __view_set( e__VW.Visible, 0, true )
+Converted description /// @description  Set the player back to whatever they were doing
+
+Converting GML script: ${project_dir}\objects\obj_cutscene\Step_0.gml
+Converted builtin - line 4: view_visible[0] = false -> __view_set( e__VW.Visible, 0, false )
+Converted builtin - line 5: view_visible[1] = true -> __view_set( e__VW.Visible, 1, true )
+Converted description /// @description  Activate the cutscene in another npc
+
+Converting GML script: ${project_dir}\objects\obj_winthegame\Step_0.gml
+Converted description /// @description  Check if the win conditions are met, then send the player to the correct room to win
+
+Converting GML script: ${project_dir}\objects\obj_trigger\Create_0.gml
+Converted description /// @description Pressure plates and switches that trigger another action
+
+Converting GML script: ${project_dir}\objects\obj_trigger\Step_0.gml
+Converted description /// @description checking if the necessary item is in place
+
+Converting GML script: ${project_dir}\objects\obj_bouncer\Create_0.gml
+Converted description /// @description  Bounce the player back if they touch this.
+
+Converting GML script: ${project_dir}\objects\obj_bouncer\Step_0.gml
+Converted description /// @description  interact with player collision
+
+Converting GML script: ${project_dir}\objects\obj_door\Create_0.gml
+Converted description /// @description doors are set off by triggers
+
+Converting GML script: ${project_dir}\objects\obj_door\Step_0.gml
+Converted description /// @description  if the action is on, do the action
+
+Converting GML script: ${project_dir}\objects\obj_switch\Create_0.gml
+Converted description /// @description  take after the parent obj
+
+Converting GML script: ${project_dir}\objects\obj_switch\Step_0.gml
+Converted description /// @description  event inherited unless it is ==-2
+
+Converting GML script: ${project_dir}\objects\obj_grinder\Create_0.gml
+Converted description /// @description  take after parent obj
+
+Converting GML script: ${project_dir}\objects\obj_meater\Create_0.gml
+Converted description /// @description this keeps track of the amount of meet consumed by grinders.
+
+Converting GML script: ${project_dir}\objects\obj_weathermachine_body\Create_0.gml
+Converted description /// @description  create the powerswitch
+
+Converting GML script: ${project_dir}\objects\obj_weathermachine_body\Alarm_0.gml
+Converted description /// @description  Start the cutscene appear with the lightning rod room
+
+Converting GML script: ${project_dir}\objects\obj_weathermachine_body\Step_0.gml
+Converted description /// @description  Make the machine make the noise
+
+Converting GML script: ${project_dir}\objects\obj_meltwall\Create_0.gml
+Converted description /// @description  This wall melts when the matching color potion is thrown at it.
+
+Converting GML script: ${project_dir}\objects\obj_meltwall\Step_0.gml
+Converted description /// @description Check if the potion is here
+
+Converting GML script: ${project_dir}\objects\obj_weathermachine_part\Create_0.gml
+Converted description /// @description  Create the weather machine part
+
+Converting GML script: ${project_dir}\objects\obj_weathermachine_part\Step_0.gml
+Converted description /// @description  The machines need to get fixed
+
+Converting GML script: ${project_dir}\objects\obj_weathermachine_part\Draw_0.gml
+Converted description /// @description  If fixed, switch sprites and do the necessary action for that animation
+
+Converting GML script: ${project_dir}\objects\obj_bar\Create_0.gml
+Converted description /// @description  the bar that shows
+
+Converting GML script: ${project_dir}\objects\obj_slider_module\Create_0.gml
+Converted description /// @description doors are set off by triggers
+
+Converting GML script: ${project_dir}\objects\obj_slider_module\Step_0.gml
+Converted description /// @description  if the action is on, do the action
+
+Converting GML script: ${project_dir}\objects\obj_slider_module\Draw_0.gml
+Converted description /// @description  Make the slider produce the correct length
+
+Converting GML script: ${project_dir}\objects\obj_brewingstand\Create_0.gml
+Converted description /// @description  Brewing stands take potions, mix them, and spit out a new potion
+
+Converting GML script: ${project_dir}\objects\obj_brewingstand\Alarm_0.gml
+Converted description /// @description  make a new potion if the ingredients are right
+
+Converting GML script: ${project_dir}\objects\obj_brewingstand\Step_0.gml
+Converted description /// @description  make the stand grab the potion
+
+Converting GML script: ${project_dir}\objects\obj_brewingstand\Draw_0.gml
+Converted description /// @description  Draw the brewing stand and the potions
+
+Converting GML script: ${project_dir}\objects\obj_electricbarrier\Create_0.gml
+Converted description /// @description  inherit the event, then modify
+
+Converting GML script: ${project_dir}\objects\obj_electricbarrier\Step_0.gml
+Converted description /// @description  When lectricity is on, turn off the barriers (short-circuit)/// @param short-circuit
+
+Converting GML script: ${project_dir}\objects\obj_electricbarrier\Draw_0.gml
+Converted description /// @description  draw as the electric version if on
+
+Converting GML script: ${project_dir}\objects\obj_powerswitch\Create_0.gml
+Converted description /// @description  This switch is on the weather machine, activates the power
+
+Converting GML script: ${project_dir}\objects\obj_powerswitch\Step_0.gml
+Converted description /// @description  Handle flipping and cutscene
+
+Converting GML script: ${project_dir}\objects\obj_item\Create_0.gml
+Converted description /// @description this object exists
+
+Converting GML script: ${project_dir}\objects\obj_item\Step_0.gml
+Converted description /// @description  Handle the item's movement and existance
+
+Converting GML script: ${project_dir}\objects\obj_potion\Create_0.gml
+Converted description /// @description  potions can be mixed at brewing stands to create new items/potions
+
+Converting GML script: ${project_dir}\objects\obj_potion\Draw_0.gml
+Converted description /// @description  make this item the correct color
+
+Converting GML script: ${project_dir}\objects\obj_credits\Create_0.gml
+Converted description /// @description  Roll them credits... we done
+
+Converting GML script: ${project_dir}\objects\obj_credits\Draw_0.gml
+Converted description /// @description  Make the text scroll
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 's_sizzle' - setting to default audio group
+Missing audiogroup for sound: 'sound_hit' - setting to default audio group
+Missing audiogroup for sound: 'sound_jump' - setting to default audio group
+Missing audiogroup for sound: 'sound_music' - setting to default audio group
+Missing audiogroup for sound: 'sound_switch' - setting to default audio group
+Missing audiogroup for sound: 'sound_spooky' - setting to default audio group
+Missing audiogroup for sound: 's_ambience' - setting to default audio group
+Missing audiogroup for sound: 's_fixing_machine' - setting to default audio group
+Missing audiogroup for sound: 's_lightning_strike' - setting to default audio group
+Missing audiogroup for sound: 's_machine_is_on' - setting to default audio group
+Missing audiogroup for sound: 's_bottlebreak' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'action/action_next_room.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

@@ -1,0 +1,1 @@
+words = "Creation 23 has wrecked my weather machine.#Until it's fixed we shall resort to auxilary power.#The major downside being that all the electric #barriers are now on as part of a security measure.#Why does clean energy in the form of pure lightning #have to be so complicated?#-F"

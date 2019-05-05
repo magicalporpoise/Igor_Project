@@ -1,0 +1,6 @@
+// for when we have time fix it up
+words = @"DO NOT LEAVE OBJECTS BY THE TELEPORTERS AGAIN! 
+#YOU KNOW HOW HARD IT IS TO REMOVE THINGS
+#FROM INTERDIMENSIONAL WORMHOLES!!!
+#-Frank";
+urgency = 5;
